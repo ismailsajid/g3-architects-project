@@ -27,7 +27,10 @@
   .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
   }
-
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
 .btn-primary{
   background-color: #FF900E;
   color: white;
@@ -36,6 +39,10 @@
   font-weight: 600;
   border-radius: 10px;
   border: none;
+}
+main > section{
+  margin-top: 130px;
+
 }
 
   /* nav bar styles starts here */
@@ -85,3 +92,29 @@
 
 
   /* banner styles ends here */
+
+  /* feature and teams style starts here */
+  .teams{
+    align-items: center;
+  }
+  .img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .our-features{
+    margin-left: 130px;
+    max-width: 530px;
+  }
+  .feature-title{
+    font-weight: 500;
+    font-size: 3rem;
+  }
+  .title-mid{
+    font-weight: 700;
+  }
+  .title-end{
+    color: #FF900E;
+    font-weight: 700;
+  }
+  /* feature and teams style ends here */
