@@ -7,3 +7,46 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* shared styles stars here */
+.display-flex{
+  display: flex;
+}
+
+  /* shared styles stars here */
+  .dark-1{
+    color: #131313;
+  }
+  
+  .dark-2{
+    color: #424242;
+  }
+  .dark-3{
+    color: #727272;
+  }
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+  /* nav bar styles starts here */
+  .nav-bar{
+    justify-content: space-between;
+
+  }
+
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+  }
+  .nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+  }
+
+  /* nav bar styles ends here */
+  .nav-bar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
