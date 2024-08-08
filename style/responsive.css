@@ -5,9 +5,16 @@
         flex-direction: column;
     }
     
-    .img-container, .fact-container{
+    .img-container, 
+    .fact-container,
+    .sponspors-companies
+    {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+    }
+    .sponspors-companies{
+        justify-items: center;
+        gap: 50px;
     }
     .fact-container{
         justify-items: center;

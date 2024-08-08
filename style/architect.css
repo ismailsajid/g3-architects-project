@@ -130,9 +130,6 @@ main > section{
     
   }
   
-  
-  
-  
   .fact-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -157,5 +154,20 @@ main > section{
     font-weight: 600;
     margin-top: 10px;
   }
-  
-  /* some-faacts style start here */
+   /* some-faacts style ends here */
+
+  /* Our-Sponspors style style stars here */
+  .sponspors-info{
+    max-width: 540px;
+    margin: 50PX auto;
+    text-align: center;
+
+  }
+  .sponspors-companies{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .sponspors-companies img{
+    filter: grayscale(100%);
+  }
+  /* Our-Sponspors style style ends here */
